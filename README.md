@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/speedlog/mapping-tools-performance.svg?branch=master)](https://travis-ci.org/speedlog/mapping-tools-performance)
-# Compare performence Dozer vs MapStruct
+# Compare performance Dozer vs MapStruct
 
-This little project tests performence of mapping using Dozer and MapStruct.
+This little project tests performance of mapping using Dozer and MapStruct.
 First it creates 1 000 000 objects "Worker" and than using each library maps it into "WorkerInfo" objects.
 
 ## Test results
