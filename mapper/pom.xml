@@ -21,12 +21,6 @@
         </dependency>
 
         <dependency>
-            <groupId>pl.speedlog.demo</groupId>
-            <artifactId>mapping-tools-test-entity</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct-jdk8</artifactId>
         </dependency>
