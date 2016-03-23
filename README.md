@@ -7,11 +7,11 @@ First it creates 1 000 000 objects "Worker" and than using each library maps it 
 ## Test results
 
 Running on my notebook:
-# Intel® Core™ i7-3630QM CPU @ 2.40GHz × 8 
-# 16GB RAM
-# SDD
-# Ubuntu 15.10 (64-bit)
-# Java(TM) SE Runtime Environment (build 1.8.0_72-b1)
+* Intel® Core™ i7-3630QM CPU @ 2.40GHz × 8 
+* 16GB RAM
+* SDD
+* Ubuntu 15.10 (64-bit)
+* Java(TM) SE Runtime Environment (build 1.8.0_72-b1)
 
 ```
 INFO  Main:36 - Preparing sample data...
