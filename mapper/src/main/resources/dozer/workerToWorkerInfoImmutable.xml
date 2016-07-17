@@ -5,26 +5,38 @@
           http://dozer.sourceforge.net/schema/beanmapping.xsd">
     <mapping>
         <class-a>pl.speedlog.demo.entity.Worker</class-a>
-        <class-b>pl.speedlog.demo.dto.WorkerInfo</class-b>
+        <class-b>pl.speedlog.demo.dto.WorkerInfoImmutable</class-b>
+       <!--
+        When destination object is immutable we must add "is-accessible" attribute
+        for each destination property.
+        -->
         <field custom-converter="pl.speedlog.demo.mapper.dozer.converter.AddressToStringConverter">
             <a>address</a>
-            <b>address</b>
+            <b is-accessible="true">address</b>
         </field>
         <field>
             <a>birthDate</a>
-            <b date-format="dd.MM.yyyy">birthDate</b>
+            <b date-format="dd.MM.yyyy" is-accessible="true">birthDate</b>
         </field>
         <field custom-converter="pl.speedlog.demo.mapper.dozer.converter.CompanyToCompanyName">
             <a>company</a>
-            <b>companyName</b>
+            <b is-accessible="true">companyName</b>
         </field>
         <field>
             <a>emailList[0]</a>
-            <b>firstEmail</b>
+            <b is-accessible="true">firstEmail</b>
         </field>
         <field custom-converter="pl.speedlog.demo.mapper.dozer.converter.NameAndSurnameToOneField">
             <a>this</a>
-            <b>firstNameAndSurname</b>
+            <b is-accessible="true">firstNameAndSurname</b>
+        </field>
+        <!--
+        Even we have set wildcard mapping in global configuration, we must specify
+        this mapping to add "is-accessible" attribute.
+        -->
+        <field>
+            <a>salary</a>
+            <b is-accessible="true">salary</b>
         </field>
     </mapping>
 </mappings>

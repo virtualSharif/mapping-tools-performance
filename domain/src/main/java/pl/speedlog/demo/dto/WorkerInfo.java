@@ -6,7 +6,7 @@ import lombok.Data;
  * @author Mariusz Wyszomierski <mariusz.wyszomierski@coi.gov.pl>
  */
 @Data
-public class WorkerInfo {
+public class WorkerInfo implements WorkerInterface {
 
     private String firstNameAndSurname;
     /* Format: YYYYMMDD */
