@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Mariusz Wyszomierski <mariusz.wyszomierski@coi.gov.pl>
+ * @author Mariusz Wyszomierski <mariusz@wyszomierski.pl>
  */
 @Slf4j
 public class Main {

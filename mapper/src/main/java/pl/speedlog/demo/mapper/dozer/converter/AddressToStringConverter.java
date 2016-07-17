@@ -4,7 +4,7 @@ import org.dozer.DozerConverter;
 import pl.speedlog.demo.entity.Address;
 
 /**
- * @author Mariusz Wyszomierski <mariusz.wyszomierski@coi.gov.pl>
+ * @author Mariusz Wyszomierski <mariusz@wyszomierski.pl>
  */
 public class AddressToStringConverter extends DozerConverter<Address, String> {
 

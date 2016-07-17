@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Mariusz Wyszomierski <mariusz.wyszomierski@coi.gov.pl>
+ * @author Mariusz Wyszomierski <mariusz@wyszomierski.pl>
  */
 public class WorkerDozerMapper {
 

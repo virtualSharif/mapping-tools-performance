@@ -3,7 +3,7 @@ package pl.speedlog.demo.entity;
 import lombok.Data;
 
 /**
- * @author Mariusz Wyszomierski <mariusz.wyszomierski@coi.gov.pl>
+ * @author Mariusz Wyszomierski <mariusz@wyszomierski.pl>
  */
 @Data
 public class Address {

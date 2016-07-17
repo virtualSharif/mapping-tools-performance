@@ -6,7 +6,7 @@ import java.math.BigInteger;
 import java.util.Date;
 
 /**
- * @author Mariusz Wyszomierski <mariusz.wyszomierski@coi.gov.pl>
+ * @author Mariusz Wyszomierski <mariusz@wyszomierski.pl>
  */
 @Data
 public class Person {

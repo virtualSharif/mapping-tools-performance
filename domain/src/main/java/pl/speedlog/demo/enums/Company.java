@@ -1,7 +1,7 @@
 package pl.speedlog.demo.enums;
 
 /**
- * @author Mariusz Wyszomierski <mariusz.wyszomierski@coi.gov.pl>
+ * @author Mariusz Wyszomierski <mariusz@wyszomierski.pl>
  */
 public enum Company {
 

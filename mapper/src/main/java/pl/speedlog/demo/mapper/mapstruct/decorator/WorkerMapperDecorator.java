@@ -5,7 +5,7 @@ import pl.speedlog.demo.entity.Worker;
 import pl.speedlog.demo.mapper.mapstruct.WorkerMapStructMapper;
 
 /**
- * @author Mariusz Wyszomierski <mariusz.wyszomierski@coi.gov.pl>
+ * @author Mariusz Wyszomierski <mariusz@wyszomierski.pl>
  */
 public abstract class WorkerMapperDecorator extends WorkerMapStructMapper {
 

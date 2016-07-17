@@ -4,7 +4,7 @@ import org.dozer.DozerConverter;
 import pl.speedlog.demo.enums.Company;
 
 /**
- * @author Mariusz Wyszomierski <mariusz.wyszomierski@coi.gov.pl>
+ * @author Mariusz Wyszomierski <mariusz@wyszomierski.pl>
  */
 public class CompanyToCompanyName extends DozerConverter<Company, String> {
 
